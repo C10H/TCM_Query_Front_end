@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>药物详情</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<!-- Latest compiled and minified Bootstrap Table CSS -->
+	<link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.15.5/dist/bootstrap-table.min.css">
+	
+
+  </head>
+  <body>
+    <nav id="navBar">
+    </nav>
+	<div class="container container-fluid">
+		<br>
+		<p id="result"></p>
+		<div class="row">
+			<div class="col-lg-4">
+				<figure class="figure" id="fig">
+					
+				</figure>
+			</div>
+			<div class="col-lg-8">
+				<table id="table" class="table table-hover table-responsive-xl" style="white-space: nowrap">
+				</table>
+			</div>
+		</div>
+		<h5>应用于方剂：</h5>
+		<table id="table1" class="table table-responsive-xl table-hover" style="white-space: nowrap"></table>
+		<p><h5>&nbsp;</h5></p>
+	  	<button type="button" class="btn btn-primary" onClick="admin()">图片上传</button>
+	</div>  
+       <div class="row">
+		 
+          <div class="text-center col-lg-6 offset-lg-3">
+			  <br>  
+			  <h4><a href="../../">土星信号台</a></h4>
+			  <p>CopyLeft © 2019 - Forever, Zhong Y. Jie, etc. Partial Rights Reserved, Licensed Under GNU GPL v3.</p>
+		<p>WebPage Designer: Zhu H. Jin <a href="../">My Website</a></p>
+          </div>
+       </div>
+	  
+	
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="../js/jquery-3.3.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+	  
+	<!-- Latest compiled and minified Bootstrap Table JavaScript -->
+	<script src="https://unpkg.com/bootstrap-table@1.15.5/dist/bootstrap-table.min.js"></script>
+	<!-- Latest compiled and minified Bootstrap Table Locales -->
+	<script src="https://unpkg.com/bootstrap-table@1.15.5/dist/locale/bootstrap-table-zh-CN.min.js"></script>
+	
+	<script src="../js/TCM_Nav_Query.js"></script>  
+	<script src="js/TCM_MedQuery_Moreinfo.js"></script>  
+  </body>
+</html>
